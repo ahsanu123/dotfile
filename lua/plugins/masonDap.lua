@@ -4,6 +4,7 @@ require("mason-nvim-dap").setup({
 })
 
 local dap = require("dap")
+local daputil = require("dap.utils")
 
 dap.configurations.cs = {
   {
@@ -18,12 +19,9 @@ dap.configurations.cs = {
     type = "coreclr",
     name = "attach - coreclr",
     request = "attach",
-    processId = function()
-      return vim.fn.input("Enter Process Id: ")
-    end,
+    processId = daputil.pick_process,
     program = function()
       return vim.fn.input("Path to dll", vim.fn.getcwd() .. "\\bin\\Debug\\", "file")
-      -- return "D:\\project\\2023\\dmc\\Digital-Marketing-Content\\src\\DMC.Api\\bin\\Debug\\net6.0-windows\\DMC.Api.dll"
     end,
   },
 }
