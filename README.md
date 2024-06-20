@@ -1,7 +1,7 @@
 # 💤 Config For Neovim  
 
 ## Note
-
+**Make PDF Text All Black With GhostScript**
 ```shell
 gs \
  -sOutputFile=output.pdf \
