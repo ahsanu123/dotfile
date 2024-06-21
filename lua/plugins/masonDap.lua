@@ -21,7 +21,13 @@ return {
         request = "attach",
         processId = daputil.pick_process,
         program = function()
-          return vim.fn.input("Path to dll", vim.fn.getcwd() .. "\\bin\\Debug\\", "file")
+          local s = "/"
+          if vim.fn.has("win32") then
+            s = "\\"
+          end
+          local path = vim.fn.getcwd() .. s .. "bin" .. s .. "Debug" .. s
+
+          return vim.fn.input("Path to dll", path, "file")
         end,
       },
     }
