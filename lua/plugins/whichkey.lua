@@ -3,13 +3,9 @@ return {
   event = "VeryLazy",
   init = function()
     local wk = require("which-key")
-    wk.register({
-      t = {
-        name = "Telescope Custom Keymap",
-        r = { "<cmd>Telescope resume<cr>", "resume last telescope picker" },
-      },
-    }, {
-      prefix = "<leader>",
+    wk.add({
+      { "<leader>t", desc = "custom keymap" },
+      { "<leader>tg", desc = "git conflict tools" },
     })
   end,
 }
