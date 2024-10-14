@@ -1,6 +1,7 @@
 ---@type LazyPlugin
 local akhinsoGitMergeConflic = {
   "akinsho/git-conflict.nvim",
+  version = "*",
   config = true,
   opts = {
     default_mappings = true, -- disable buffer local mapping created by this plugin
@@ -10,7 +11,6 @@ local akhinsoGitMergeConflic = {
     highlights = { -- They must have background color, otherwise the default color will be used
       incoming = "DiffAdd",
       current = "DiffText",
-      ancestor = "#00ccff",
     },
   },
   keys = {
