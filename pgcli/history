@@ -1,0 +1,571 @@
+
+# 2024-03-04 18:21:17.637356
++create table User (
+
+# 2024-03-04 18:25:15.364925
++\c dvdrental
+
+# 2024-03-04 18:25:36.709342
++;
+
+# 2024-03-04 18:25:58.045054
++select * from film ;
+
+# 2024-03-04 18:26:09.089390
++\x
+
+# 2024-03-04 18:26:18.860683
++select * from film ;
+
+# 2024-03-04 18:26:43.889601
++;
+
+# 2024-03-04 18:27:04.457007
++\c PlanerP
+
+# 2024-03-04 18:27:31.838890
++\l
+
+# 2024-03-04 18:27:36.035704
++\dt
+
+# 2024-03-04 18:29:42.143206
++create table User (
++username VARCHAR(50) not null,
++email varchar(100) not null, 
++password varchar(100) not null,
++userid int generated always as identity);
+
+# 2024-03-04 18:30:06.863232
++create table User(
++username VARCHAR(50) not null,
++email varchar(100) not null, 
++password varchar(100) not null,
++userid int generated always as identity);
+
+# 2024-03-04 18:30:44.554465
++create table User(
++username VARCHAR(50) not null,
++email varchar(100) not null, 
++password varchar(100) not null,
++userid int generated always as identity
++primary key(userid));
+
+# 2024-03-04 18:30:59.666614
++CREATE TABLE customers(
++   customer_id INT GENERATED ALWAYS AS IDENTITY,
++   customer_name VARCHAR(255) NOT NULL,
++   PRIMARY KEY(customer_id)
++);
+
+# 2024-03-04 18:31:31.190044
++drop table customers;
+
+# 2024-03-04 18:32:51.519664
++CREATE TABLE User(username VARCHAR(100) NOT NULL );
+
+# 2024-03-04 18:33:17.685765
++CREATE TABLE user(username VARCHAR(100) NOT NULL );
+
+# 2024-03-04 18:33:29.565040
++create table customers(
++   customer_id INT GENERATED ALWAYS AS IDENTITY,
++   customer_name VARCHAR(255) NOT NULL,
++   PRIMARY KEY(customer_id)
++);
+
+# 2024-03-04 18:33:43.583901
++drop table customers;
+
+# 2024-03-04 18:34:21.263201
++create table cont(customer_id INT);
+
+# 2024-03-04 18:34:34.875618
++drop table cont
++;
+
+# 2024-03-04 18:35:32.317895
++create table User(
++username VARCHAR(50) not null,
++email varchar(100) not null, 
++password varchar(100) not null,
++userid int generated always as identity,
++primary key(userid));
+
+# 2024-03-04 18:36:57.958568
++create table user(
++username VARCHAR(50) not null,
++email varchar(100) not null, 
++password varchar(100) not null,
++userid int generated always as identity,
++primary key(userid)
++);
+
+# 2024-03-04 18:37:06.963403
++\dt
+
+# 2024-03-04 18:37:24.821917
++create table user(
++username VARCHAR(50) not null,
++email varchar(100) not null, 
++password varchar(100) not null,
++userid int generated always as identity,
++primary key(userid)
++);
+
+# 2024-03-04 18:38:23.192474
++create table customers (
++customer_id int generated always as identity
++);
+
+# 2024-03-04 18:38:26.990118
++\dt
+
+# 2024-03-04 18:38:41.462957
++drop table customers 
++;
+
+# 2024-03-04 18:38:46.823894
++\c 
+
+# 2024-03-04 18:38:53.061560
++\c PlanerP
+
+# 2024-03-04 18:39:28.744801
++create table customers (customer_id int generated always as identity);
+
+# 2024-03-04 18:39:32.123896
++\dt
+
+# 2024-03-04 18:39:53.204072
++drop table customers;
+
+# 2024-03-04 18:40:15.842657
++create table user(
++username VARCHAR(50) not null,
++email varchar(100) not null, 
++password varchar(100) not null,
++userid int generated always as identity,
++primary key(userid)
++);
+
+# 2024-03-04 18:42:01.465993
++create table user (
++userid int generated always as identity,
++username varchar(100) not null,
++email varchar(100) not null,
++password varchar(100) not null, 
++primary key(userid)
++);
+
+# 2024-03-04 18:42:52.217305
++create table PlannerPUser (
++userid int generated always as identity,
++username varchar(100) not null,
++email varchar(100) not null,
++password varchar(100) not null, 
++primary key(userid)
++);
+
+# 2024-03-04 18:42:55.719563
++\dt
+
+# 2024-03-04 18:43:32.269930
++drop table plannerpuser
++;
+
+# 2024-03-04 18:43:40.865414
++\dt
+
+# 2024-03-04 18:44:00.382757
++create table planerp_user(
++userid int generated always as identity,
++username varchar(100) not null,
++email varchar(100) not null,
++password varchar(100) not null, 
++primary key(userid)
++);
+
+# 2024-03-04 18:44:04.407813
++\dt 
+
+# 2024-03-04 18:44:29.119049
++drop table plannerpuser;
+
+# 2024-03-04 18:44:34.717264
++\dt
+
+# 2024-03-04 18:44:42.340261
++drop table planerp_user;
+
+# 2024-03-04 18:44:55.000246
++create table planerp_user(
++user_id int generated always as identity,
++username varchar(100) not null,
++email varchar(100) not null,
++password varchar(100) not null, 
++primary key(userid)
++);
+
+# 2024-03-04 18:45:02.596946
++create table planerp_user(
++user_id int generated always as identity,
++username varchar(100) not null,
++email varchar(100) not null,
++password varchar(100) not null, 
++primary key(user_id)
++);
+
+# 2024-03-04 18:54:10.175238
++create table planerp_project(
++project_id int generated always as identity, 
++name varchar(100) not null,
++created_date date not null default current_date,
++deadline_date date null, 
++lastupdated_date date not null default current_date,
++finished_date date null,
++sell_price float null,
++capital float not null,
++fail boolean not null default false,
++finish boolean not null default false, 
++profit_inpersen float null,
++description varchar(2000) null
++);
+
+# 2024-03-04 18:54:14.687862
++\dt 
+
+# 2024-03-04 19:02:44.220005
++create table planerp_material(
++material_id int generated always as identity,
++project_id int, 
++name varchar(100) not null,
++type varchar(50) null,
++category varchar(50) null, 
++description varchar (2000) null,
++price float not null, 
++suplier varchar(100) not null,
++suplier_link varchar (1000) null,
++
++primary key(material_id),
++constraint fk_project_id foreign key(project_id) references planerp_project(project_id) on delete set null
++);
++
+
+# 2024-03-04 19:06:06.336054
++create table planerp_resource_doc(
++resource_doc_id int generated always as identity,
++title varchar(100) not null,
++url varchar(1500) null,
++description varchar (2000) null,
++);
+
+# 2024-03-04 19:06:30.669600
++create table planerp_resource_doc(
++resource_doc_id int generated always as identity,
++title varchar(100) not null,
++url varchar(1500) null,
++description varchar(2000) null,
++);
+
+# 2024-03-04 19:06:41.182273
++create table planerp_resource_doc(
++resource_doc_id int generated always as identity,
++title varchar(100) not null,
++url varchar(1500) null,
++description varchar(2000) null
++);
+
+# 2024-03-04 19:07:02.080087
++drop table planerp_resource_doc
++;
+
+# 2024-03-04 19:07:10.204180
++create table planerp_resource_doc(
++resource_doc_id int generated always as identity,
++title varchar(100) not null,
++url varchar(1500) null,
++description varchar(2000) null
++);
+
+# 2024-03-04 19:07:15.487949
++drop table planerp_resource_doc
++;
+
+# 2024-03-04 19:09:10.152344
++create table planerp_resource_doc(
++resource_doc_id int generated always as identity,
++material_id int,
++title varchar(100) not null,
++url varchar(1500) null,
++description varchar(2000) null
++
++primary key(resource_doc_id),
++constraint fk_material_id foreign key (material_id) references planerp_material(material_id)
++);
+
+# 2024-03-04 19:09:16.861648
++create table planerp_resource_doc(
++resource_doc_id int generated always as identity,
++material_id int,
++title varchar(100) not null,
++url varchar(1500) null,
++description varchar(2000) null,
++
++primary key(resource_doc_id),
++constraint fk_material_id foreign key (material_id) references planerp_material(material_id)
++);
+
+# 2024-03-04 19:12:31.753754
++create table planerp_storage(
++storage_id int generated always as identity,
++name varchar(100) not null,
++location varchar(100) not null,
++
++primary key(storage_id)
++);
+
+# 2024-03-05 13:13:25.977442
++create or replace procedure GetMaterialById(Id int) language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:14:01.255765
++call GetMaterialById(1)
++;
+
+# 2024-03-05 13:15:54.105007
++\c PlanerP
+
+# 2024-03-05 13:15:58.678977
++create or replace procedure GetMaterialById(Id int) language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:16:02.700224
++call GetMaterialById(1)
++;
+
+# 2024-03-05 13:24:58.529030
++create or replace function GetMaterialById(Id int) returns setof public.planerp.material language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:25:11.074760
++create or replace function GetMaterialById(Id int) returns setof public.planerp_material language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:25:33.670068
++drop procedure GetMaterialById;
+
+# 2024-03-05 13:25:37.721595
++create or replace function GetMaterialById(Id int) returns setof public.planerp_material language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:26:17.496688
++create or replace function GetMaterialById(Id int) return public.planerp_material language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:26:30.253470
++create or replace function GetMaterialById(Id int) return setof public.planerp_material language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:26:46.057128
++create or replace function GetMaterialById(Id int) returns public.planerp_material language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:27:03.071606
++drop function getmaterialbyid(integer)
++;
+
+# 2024-03-05 13:27:06.479032
++create or replace function GetMaterialById(Id int) returns public.planerp_material language plpgsql as $$ 
++begin
++select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:29:11.674615
++call GetMaterialById(1)
++;
+
+# 2024-03-05 13:29:33.995989
++select GetMaterialById(1);
+
+# 2024-03-05 13:29:47.714700
++perform GetMaterialById(1);
+
+# 2024-03-05 13:30:13.249535
++select GetMaterialById(Id => 1);
+
+# 2024-03-05 13:30:57.520348
++select "GetMaterialById"(1);
+
+# 2024-03-05 13:31:12.516850
++select GetMaterialById(1);
+
+# 2024-03-05 13:32:21.772946
++create or replace function GetMaterialById(Id int) returns public.planerp_material language plpgsql as $$ 
++begin
++return (select * from planerp_material where material_id = Id;)
++end;$$;
+
+# 2024-03-05 13:32:31.242829
++create or replace function GetMaterialById(Id int) returns public.planerp_material language plpgsql as $$ 
++begin
++return (select * from planerp_material where material_id = Id)
++end;$$;
+
+# 2024-03-05 13:32:36.190195
++create or replace function GetMaterialById(Id int) returns public.planerp_material language plpgsql as $$ 
++begin
++return (select * from planerp_material where material_id = Id);
++end;$$;
+
+# 2024-03-05 13:32:42.130576
++;
+
+# 2024-03-05 13:32:48.598721
++select GetMaterialById(1);
+
+# 2024-03-05 13:34:56.415660
++create or replace function GetMaterialById(Id int) returns public.planerp_material language plpgsql as $$ 
++begin
++return query select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:55:26.532508
++create or replace function GetMaterialById(Id int) returns setof public.planerp_material language plpgsql as $$ 
++begin
++return query select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:55:47.540183
++drop function getmaterialbyid(integer)
++;
+
+# 2024-03-05 13:56:21.238593
++create or replace function GetMaterialById(Id int) returns setof public.planerp_material language plpgsql as $$ 
++begin
++return query select * from planerp_material where material_id = Id;
++end;$$;
+
+# 2024-03-05 13:56:29.654127
++call GetMaterialById(1);
+
+# 2024-03-05 13:56:58.114833
++select * from GeMaterialById(1);
+
+# 2024-03-05 13:57:13.575914
++select * from getmaterialbyid(1);
+
+# 2024-03-05 13:57:56.011027
++select * from getmaterialbyid(0);
+
+# 2024-03-05 13:58:03.399736
++select * from getmaterialbyid(1);
+
+# 2024-03-05 13:58:20.641009
++select * from getmaterialbyid(3);
+
+# 2024-03-05 14:33:16.512702
++select getmaterialbyid(3);
+
+# 2024-03-05 19:42:05.808615
++select * from getmaterialbyid(3);
+
+# 2024-03-05 19:59:38.039157
++call getmaterialbyid(3);
+
+# 2024-03-05 19:59:45.383732
++select * from getmaterialbyid(3);
+
+# 2024-03-05 20:30:14.543587
++create or replace function GetMaterial() returns setof public.planterp_material
++language plpgsql as 
++$$
++begin
++return query select * from planerp_material; 
++end; 
++$$;
+
+# 2024-03-05 20:30:31.490876
++create or replace function GetMaterial() returns setof public.planerp_material
++language plpgsql as 
++$$
++begin
++return query select * from planerp_material; 
++end; 
++$$;
+
+# 2024-03-05 20:39:41.650430
++alter table planerp_material rename column materialid to material_id;
+
+# 2024-03-05 20:42:29.833551
++alter table planerp_material rename column material_id to MaterialId;;
+
+# 2024-03-05 20:43:34.992269
++alter table planerp_material rename column material_id to MaterialId;
+
+# 2024-03-05 20:44:20.046767
++alter table planerp_material rename column suplier_link to suplierlink;
+
+# 2024-03-05 20:44:34.161489
++alter table planerp_material rename column suplier_id to suplierid;
+
+# 2024-03-05 20:44:54.172893
++alter table planerp_material rename column storage_id to storageid;
+
+# 2024-03-05 20:45:39.848409
++alter table planerp_project rename column project_id to projectid;
+
+# 2024-03-05 20:46:12.925238
++alter table planerp_project rename column created_date to createddate;
+
+# 2024-03-05 20:46:40.450720
++alter table planerp_project rename column deadline_date to deadlinedate;
+
+# 2024-03-05 20:47:12.999608
++alter table planerp_project rename column lastupdated_date to lasupdateddate;;
+
+# 2024-03-05 20:47:47.947676
++alter table planerp_project rename column finished_date to finisheddate;
+
+# 2024-03-05 20:48:05.927004
++alter table planerp_project rename column sell_price to sellprice;
+
+# 2024-03-05 20:48:30.617876
++alter table planerp_project rename column profit_inpersen to profitinpersen;
+
+# 2024-03-05 20:49:18.535269
++alter table planerp_resource_doc rename column resource_doc_id to resourcedocid;
+
+# 2024-03-05 20:49:35.792625
++alter table planerp_resource_doc rename column material_id to materialid;
+
+# 2024-03-05 20:50:21.524228
++alter table planerp_storage rename column storage_id to storageid;
+
+# 2024-03-05 20:50:47.281729
++alter table planerp_user rename column user_id to userid;
+
+# 2024-03-05 20:51:19.407014
++create or replace function GetMaterialById(Id int) returns setof public.planerp_material language plpgsql as $$ 
++begin
++return query select * from planerp_material where materialid = Id;
++end;$$;
+
+# 2024-03-05 20:52:08.863221
++exit 

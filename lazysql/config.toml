@@ -1,0 +1,5 @@
+[[database]]
+Name = 'raspi postgresql'
+Provider = 'postgres'
+DBName = 'exercise'
+URL = 'postgresql://192.168.0.109/exercise?user=alarm&password=alarm&ssl=true'

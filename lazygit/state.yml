@@ -1,0 +1,35 @@
+lastupdatecheck: 0
+recentrepos:
+    - /home/ah/.config
+    - /home/ah/personalProject/litsi
+    - /home/ah/personalProject/Stacks-Editor
+    - /home/ah/personalProject/learnRepo
+    - /home/ah/personalProject/Epiphany
+    - /home/ah/personalProject/planerp
+    - /home/ah/personalProject/planerp/third-parties/tui.editor
+    - /home/ah/personalProject/blocksuite
+    - /home/ah/personalProject/learnRepo/conan
+    - /home/ah/personalProject/db2puml
+    - /home/ah/personalProject/ost-pid
+    - /home/ah/personalProject/notebook
+    - /home/ah/personalProject/dotfile
+    - /home/ah/personalProject/DPF
+    - /home/ah/personalProject/maddyMarkdown
+    - /home/ah/personalProject/codecrafters-http-server-cpp
+    - /home/ah/personalProject/gh-pages
+    - /home/ah/personalProject/libopencm3-miniblink
+    - /home/ah/personalProject/milkdown
+    - /home/ah/personalProject/ngx-editor
+    - /home/ah/personalProject/ng-milkdown
+    - /home/ah/personalProject/imtui
+startuppopupversion: 5
+lastversion: 0.44.1
+customcommandshistory: []
+hidecommandlog: false
+ignorewhitespaceindiffview: false
+diffcontextsize: 1
+renamesimilaritythreshold: 50
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always
