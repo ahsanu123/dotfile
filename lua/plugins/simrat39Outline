@@ -1,0 +1,58 @@
+
+return {
+  {
+    "simrat39/symbols-outline.nvim",
+    cmd = "SymbolsOutline",
+    keys = {
+      {"<leader>cs", "<cmd>SymbolsOutline<cr>", desc="Symbols Outline from simrat39"}
+    },
+
+    opts = {
+      position='right',
+      highlight_hovered_item = true,
+      show_guides = true,
+      auto_preview = false,
+      relative_width = true,
+      width = 25,
+      auto_close = false,
+      show_numbers = false,
+      show_relative_numbers = false,
+      show_symbol_details = true,
+      preview_bg_highlight = 'Pmenu',
+      autofold_depth = nil,
+      auto_unfold_hover = true,
+      fold_markers = { '', '' },
+      wrap = false,
+      symbols = {
+        File = { icon = "", hl = "@text.uri" },
+        Module = { icon = "M", hl = "@namespace" },
+        Namespace = { icon = "", hl = "@namespace" },
+        Package = { icon = "", hl = "@namespace" },
+        Class = { icon = "", hl = "@type" },
+        Method = { icon = "ƒ", hl = "@method" },
+        Property = { icon = "", hl = "@method" },
+        Field = { icon = "", hl = "@field" },
+        Constructor = { icon = "", hl = "@constructor" },
+        Enum = { icon = "E", hl = "@type" },
+        Interface = { icon = "I", hl = "@type" },
+        Function = { icon = "", hl = "@function" },
+        Variable = { icon = "", hl = "@constant" },
+        Constant = { icon = "", hl = "@constant" },
+        String = { icon = "S", hl = "@string" },
+        Number = { icon = "#", hl = "@number" },
+        Boolean = { icon = "", hl = "@boolean" },
+        Array = { icon = "[]", hl = "@constant" },
+        Object = { icon = "⦿", hl = "@type" },
+        Key = { icon = "", hl = "@type" },
+        Null = { icon = "NULL", hl = "@type" },
+        EnumMember = { icon = "", hl = "@field" },
+        Struct = { icon = "St", hl = "@type" },
+        Event = { icon = "", hl = "@type" },
+        Operator = { icon = "+", hl = "@operator" },
+        TypeParameter = { icon = "", hl = "@parameter" },
+        Component = { icon = "", hl = "@function" },
+        Fragment = { icon = "", hl = "@constant" },
+    },
+  },
+}
+}
