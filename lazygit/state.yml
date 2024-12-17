@@ -1,11 +1,15 @@
 lastupdatecheck: 0
 recentrepos:
     - /home/ah/.config
+    - /home/ah/personalProject/planerp
+    - /home/ah/personalProject/thods
+    - /home/ah/personalProject/wolf-table-renderer
+    - /home/ah/personalProject/wolf-table
+    - /home/ah/personalProject/x-spreadsheet
     - /home/ah/personalProject/litsi
     - /home/ah/personalProject/Stacks-Editor
     - /home/ah/personalProject/learnRepo
     - /home/ah/personalProject/Epiphany
-    - /home/ah/personalProject/planerp
     - /home/ah/personalProject/planerp/third-parties/tui.editor
     - /home/ah/personalProject/blocksuite
     - /home/ah/personalProject/learnRepo/conan
