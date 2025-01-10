@@ -1,0 +1,59 @@
+{
+  "parser-directories": [
+    "/home/ah/github",
+    "/home/ah/src",
+    "/home/ah/source",
+    "/home/ah/projects",
+    "/home/ah/dev",
+    "/home/ah/git"
+  ],
+  "theme": {
+    "string": 28,
+    "function": 26,
+    "comment": {
+      "italic": true,
+      "color": 245
+    },
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "constant.builtin": {
+      "color": 94,
+      "bold": true
+    },
+    "function.builtin": {
+      "bold": true,
+      "color": 26
+    },
+    "module": 136,
+    "punctuation.delimiter": 239,
+    "tag": 18,
+    "constructor": 136,
+    "variable.parameter": {
+      "underline": true
+    },
+    "keyword": 56,
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "number": {
+      "color": 94,
+      "bold": true
+    },
+    "string.special": 30,
+    "embedded": null,
+    "variable.builtin": {
+      "bold": true
+    },
+    "constant": 94,
+    "punctuation.bracket": 239,
+    "type": 23,
+    "type.builtin": {
+      "bold": true,
+      "color": 23
+    },
+    "property": 124
+  }
+}

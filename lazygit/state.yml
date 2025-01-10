@@ -2,7 +2,10 @@ lastupdatecheck: 0
 recentrepos:
     - /home/ah/.config
     - /home/ah/personalProject/planerp
+    - /home/ah/personalProject/ams
     - /home/ah/personalProject/thods
+    - /home/ah/personalProject/DSP.jl
+    - /home/ah/personalProject/leetcode.nvim
     - /home/ah/personalProject/wolf-table-renderer
     - /home/ah/personalProject/wolf-table
     - /home/ah/personalProject/x-spreadsheet
@@ -10,7 +13,6 @@ recentrepos:
     - /home/ah/personalProject/Stacks-Editor
     - /home/ah/personalProject/learnRepo
     - /home/ah/personalProject/Epiphany
-    - /home/ah/personalProject/planerp/third-parties/tui.editor
     - /home/ah/personalProject/blocksuite
     - /home/ah/personalProject/learnRepo/conan
     - /home/ah/personalProject/db2puml
