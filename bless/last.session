@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<session>
+	<windowheight>1032</windowheight>
+	<windowwidth>958</windowwidth>
+	<activefile>/home/ahsanu/project/2024/hardware/sudi-keyboard/firmware/v2/hellyeah.bin</activefile>
+	<file>
+		<path>/home/ahsanu/project/2024/hardware/sudi-keyboard/firmware/v2/hellyeah.bin</path>
+		<offset>0</offset>
+		<cursoroffset>65536</cursoroffset>
+		<cursordigit>0</cursordigit>
+		<layout>/usr/share/bless/bless-default.layout</layout>
+		<focusedarea>0</focusedarea>
+	</file>
+	<file>
+		<path>/home/ahsanu/tool/jlink/Firmwares/JLinkEDUMini_V1.bin</path>
+		<offset>0</offset>
+		<cursoroffset>0</cursoroffset>
+		<cursordigit>0</cursordigit>
+		<layout>/usr/share/bless/bless-default.layout</layout>
+		<focusedarea>0</focusedarea>
+	</file>
+</session>

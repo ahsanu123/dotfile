@@ -1,0 +1,7 @@
+[Default Applications]
+application/x-cd-image=userapp-bash -e 7zip -DRACB2.desktop
+application/pdf=okularApplication_pdf.desktop
+
+[Added Associations]
+application/x-cd-image=userapp-bash -e 7zip -DRACB2.desktop;
+application/pdf=okularApplication_pdf.desktop;

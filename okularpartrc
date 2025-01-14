@@ -1,0 +1,19 @@
+[$Version]
+update_info=okular.upd:annotation-toolbar,okular.upd:builtin-annotations
+
+[Dlg Accessibility]
+BWContrast=5
+BWThreshold=9
+RecolorBackground=14,16,17
+RecolorForeground=221,221,221
+
+[Document]
+ChangeColors=true
+RenderMode=Recolor
+
+[PageView]
+BackgroundColor=61,61,61
+UseCustomBackgroundColor=true
+
+[Reviews]
+QuickAnnotationTools=<tool default="true" name="Yellow Highlighter" type="highlight" id="1"><engine color="#ffff00" type="TextSelector"><annotation color="#ffffff00" type="Highlight"/></engine><shortcut>1</shortcut></tool>,<tool default="true" name="Green Highlighter" type="highlight" id="2"><engine color="#00ff00" type="TextSelector"><annotation color="#ff00ff00" type="Highlight"/></engine><shortcut>2</shortcut></tool>,<tool type="underline" id="3"><engine color="#ff0000" type="TextSelector"><annotation color="#ffff0000" type="Underline"/></engine><shortcut>3</shortcut></tool>,<tool default="true" name="Insert Text" type="typewriter" id="4"><engine block="true" type="PickPoint"><annotation color="#00ffffff" width="0" type="Typewriter" textColor="#000000"/></engine><shortcut>4</shortcut></tool>,<tool type="note-inline" id="5"><engine block="true" color="#ffff00" hoverIcon="tool-note-inline" type="PickPoint"><annotation color="#ffffff00" type="FreeText" textColor="#ff000000"/></engine><shortcut>5</shortcut></tool>,<tool type="note-linked" id="6"><engine color="#ffff00" hoverIcon="tool-note" type="PickPoint"><annotation color="#ffffff00" type="Text" icon="Note"/></engine><shortcut>6</shortcut></tool>

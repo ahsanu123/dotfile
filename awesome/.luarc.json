@@ -1,0 +1,11 @@
+{
+  "workspace.library": [
+    "/usr/share/awesome/lib/",
+    "/usr/share/awesome/lib/awful/",
+    "/usr/share/awesome/lib/gears/",
+    "/usr/share/awesome/lib/wibox/",
+    "/usr/share/awesome/lib/menubar/",
+    "/usr/share/awesome/lib/naughty/",
+    "/usr/share/awesome/lib/beautiful/"
+  ]
+}

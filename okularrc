@@ -1,0 +1,45 @@
+[Desktop Entry]
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=false
+shouldShowToolBarComingFromFullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+1364x767 screen: Height=767
+1364x767 screen: Width=1364
+1364x767 screen: XPosition=18
+1364x767 screen: YPosition=103
+2 screens: Window-Maximized=true
+2 screens: XPosition=1367
+2 screens: YPosition=47
+HDMI-1 eDP-1=HDMI-1
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Book/LinuxFromStratch-LFS-12.0.pdf
+File10[$e]=$HOME/Downloads/Book/William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery - Numerical recipes_ the art of scientific computing-Cambridge University Press (2007).pdf
+File2[$e]=$HOME/Downloads/Wildi, Theodore - Electrical Machines, Drives, and Power Systems (2013).pdf
+File3[$e]=$HOME/Downloads/Book/Daniels, P.P._ Atencio, L. - Rxjs in Action-Manning Pub. (2017).pdf
+File4[$e]=$HOME/project/2024/hardware/solder-reflow/docs/resourceDocument/PT100-evaluation-board_51607b.pdf
+File5[$e]=$HOME/Downloads/Book/Luca Ferrari, Enrico Pirozzi - Learn PostgreSQL_ Use, manage, and build secure and scalable databases with PostgreSQL 16-Packt Publishing (2023).pdf
+File6[$e]=$HOME/Downloads/Book/Steve Klabnik_ Carol Nichols - The Rust Programming Language, 2nd Edition-No Starch Press (2022).pdf
+File7[$e]=$HOME/project/2024/hardware/solder-reflow/docs/resourceDocument/Precision-Temperature-Sensing-With-RTD-Circuits-an687c.pdf
+File8[$e]=$HOME/project/2024/hardware/solder-reflow/hardware/board/solder-reflow/docs/solder-reflow.pdf
+File9[$e]=$HOME/project/2024/hardware/solder-reflow/docs/resourceDocument/st_pt_100_en.pdf
+Name1[$e]=LinuxFromStratch-LFS-12.0.pdf
+Name10[$e]=William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery - Numerical recipes_ the art of scientific computing-Cambridge University Press (2007).pdf
+Name2[$e]=Wildi, Theodore - Electrical Machines, Drives, and Power Systems (2013).pdf
+Name3[$e]=Daniels, P.P._ Atencio, L. - Rxjs in Action-Manning Pub. (2017).pdf
+Name4[$e]=PT100-evaluation-board_51607b.pdf
+Name5[$e]=Luca Ferrari, Enrico Pirozzi - Learn PostgreSQL_ Use, manage, and build secure and scalable databases with PostgreSQL 16-Packt Publishing (2023).pdf
+Name6[$e]=Steve Klabnik_ Carol Nichols - The Rust Programming Language, 2nd Edition-No Starch Press (2022).pdf
+Name7[$e]=Precision-Temperature-Sensing-With-RTD-Circuits-an687c.pdf
+Name8[$e]=solder-reflow.pdf
+Name9[$e]=st_pt_100_en.pdf
+
+[UiSettings]
+ColorScheme=

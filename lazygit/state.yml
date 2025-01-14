@@ -1,33 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
-    - /home/ah/.config
-    - /home/ah/personalProject/planerp
-    - /home/ah/personalProject/ams
-    - /home/ah/personalProject/thods
-    - /home/ah/personalProject/DSP.jl
-    - /home/ah/personalProject/leetcode.nvim
-    - /home/ah/personalProject/wolf-table-renderer
-    - /home/ah/personalProject/wolf-table
-    - /home/ah/personalProject/x-spreadsheet
-    - /home/ah/personalProject/litsi
-    - /home/ah/personalProject/Stacks-Editor
-    - /home/ah/personalProject/learnRepo
-    - /home/ah/personalProject/Epiphany
-    - /home/ah/personalProject/blocksuite
-    - /home/ah/personalProject/learnRepo/conan
-    - /home/ah/personalProject/db2puml
-    - /home/ah/personalProject/ost-pid
-    - /home/ah/personalProject/notebook
-    - /home/ah/personalProject/dotfile
-    - /home/ah/personalProject/DPF
-    - /home/ah/personalProject/maddyMarkdown
-    - /home/ah/personalProject/codecrafters-http-server-cpp
-    - /home/ah/personalProject/gh-pages
-    - /home/ah/personalProject/libopencm3-miniblink
-    - /home/ah/personalProject/milkdown
-    - /home/ah/personalProject/ngx-editor
-    - /home/ah/personalProject/ng-milkdown
-    - /home/ah/personalProject/imtui
+    - /home/ahsanu/.config
+    - /home/ahsanu/project/2025/thods
 startuppopupversion: 5
 lastversion: 0.44.1
 customcommandshistory: []

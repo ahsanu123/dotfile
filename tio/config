@@ -1,0 +1,6 @@
+[acm]
+baudrate = 9600
+device = /dev/ttyACM0
+map = ONLCRNL
+color = 3
+input-mode = line
