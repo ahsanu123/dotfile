@@ -1,0 +1,30 @@
+{
+
+  "height": 20,
+  "spacing": 5,
+
+  "modules-left":[
+    "sway/workspaces",
+    "sway/mode"
+  ],
+  "modules-center": [
+    "sway/window"
+  ],
+  "modules-right":[
+    "backlight",
+    "clock"
+  ],
+  "clock": {
+    // "timezone": "America/New_York",
+    "format":"{:%A %d %b %Y - %H:%M}",
+    "tooltip-format": "{:%Y-%m-%d}",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "backlight": {
+    // "device": "acpi_video1",
+    "format": "{percent}% {icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+
+
+}
