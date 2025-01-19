@@ -12,7 +12,8 @@
   ],
   "modules-right":[
     "backlight",
-    "clock"
+    "clock",
+    "cpu"
   ],
   "clock": {
     // "timezone": "America/New_York",
@@ -25,6 +26,9 @@
     "format": "{percent}% {icon}",
     "format-icons": ["", "", "", "", "", "", "", "", ""]
   },
-
+  "cpu": {
+      "format": "{usage}% ",
+      "tooltip": false
+  },
 
 }
